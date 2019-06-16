@@ -236,6 +236,5 @@ async def on_message(message):
                         await client.send_message(client.get_channel(Setting.notice_channel), embed=embed)
                         await client.send_message(message.channel, "완료!")
 
-
-    
-client.run('NTQ3NDEzOTcxMjAwOTAxMTIw.XOI5Wg.1pKHZRbctSJ8SRrpYCxwna5ASxA')    
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
