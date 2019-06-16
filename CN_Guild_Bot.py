@@ -1,4 +1,4 @@
-import asyncio, discord, setting, os, sys, random, datetime
+import asyncio, discord, setting, os, datetime
 
 client = discord.Client()
 Setting = setting.Settings()
