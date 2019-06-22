@@ -1,1 +1,1 @@
-worker: CN_Guild_Bot.py 
+worker: python 
