@@ -1,1 +1,1 @@
-worker: python 
+worker: python Status-Playingset.py
